@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">WinnerClass</string>
+    <string name="applogo">AppLogo</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forget_password">Forget Password ?!</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t Have an account, Sign UP</string>
+    <string name="full_name">Full Name</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account_sign_in">Already have an account, Sign In</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="calculator_app">Calculator App</string>
+    <string name="restaurant_app">Restaurant App</string>
+    <string name="todolist_app">Todolist App</string>
+    <string name="coroutines_app">Coroutines App</string>
+    <string name="shopping_item_app">Shopping Item App</string>
+    <string name="breaking_bad_api_app">Breaking Bad Api App</string>
+    <string name="firebase_clothes_app">Firebase Clothes App</string>
+    <string name="first_number">First Number</string>
+    <string name="second_number">Second Number</string>
+    <string name="add">+</string>
+    <string name="subtract">-</string>
+    <string name="Multiply">*</string>
+    <string name="divide">/</string>
+    <string name="result_here">Result Here</string>
+    <string name="reset_values">Reset Values</string>
+</resources>

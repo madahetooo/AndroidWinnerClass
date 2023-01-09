@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCalculatorApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculator_app" />
+
+    <Button
+        android:id="@+id/RestuarantApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/restaurant_app" />
+
+    <Button
+        android:id="@+id/todolistAPP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/todolist_app" />
+
+    <Button
+        android:id="@+id/btnCoroutineAPP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/coroutines_app" />
+
+    <Button
+        android:id="@+id/btnShoppingItemApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shopping_item_app" />
+
+    <Button
+        android:id="@+id/btnBreakingBadAPIApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/breaking_bad_api_app" />
+
+    <Button
+        android:id="@+id/btnClothesApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/firebase_clothes_app" />
+</LinearLayout>
