@@ -14,17 +14,21 @@
         android:text="@string/calculator_app" />
 
     <Button
-        android:id="@+id/RestuarantApp"
+        android:id="@+id/btnRestaurantApp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/restaurant_app" />
 
     <Button
-        android:id="@+id/todolistAPP"
+        android:id="@+id/btnTodolistAPP"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/todolist_app" />
-
+    <Button
+        android:id="@+id/btnNavigationDrawerApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/navigation_drawer_app" />
     <Button
         android:id="@+id/btnCoroutineAPP"
         android:layout_width="match_parent"
