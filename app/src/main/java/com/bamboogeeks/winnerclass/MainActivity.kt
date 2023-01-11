@@ -3,9 +3,11 @@ package com.bamboogeeks.winnerclass
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.bamboogeeks.winnerclass.broadcast_receiver_app.BroadcastReceiverExampleActivity
 import com.bamboogeeks.winnerclass.calculatorapp.CalculatorActivity
 import com.bamboogeeks.winnerclass.databinding.ActivityMainBinding
 import com.bamboogeeks.winnerclass.nav_drawer_app.NavigationDrawerAppActivity
+import com.bamboogeeks.winnerclass.notification_app.NotificationExampleActivity
 import com.bamboogeeks.winnerclass.restaurant_app.ResturantActivity
 import com.bamboogeeks.winnerclass.todolist_app.ui.TodoListActivity
 
@@ -29,6 +31,14 @@ class MainActivity : AppCompatActivity() {
         }
         binding.btnNavigationDrawerApp.setOnClickListener {
             val intent = Intent(this, NavigationDrawerAppActivity::class.java)
+            startActivity(intent)
+        }
+        binding.btnNormalNotificationExample.setOnClickListener {
+            val intent = Intent(this, NotificationExampleActivity::class.java)
+            startActivity(intent)
+        }
+        binding.btnBroadCastReceiverApp.setOnClickListener {
+            val intent = Intent(this, BroadcastReceiverExampleActivity::class.java)
             startActivity(intent)
         }
     }

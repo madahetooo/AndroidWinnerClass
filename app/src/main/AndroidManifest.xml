@@ -13,6 +13,20 @@
         android:theme="@style/Theme.WinnerClass"
         tools:targetApi="31">
         <activity
+            android:name=".broadcast_receiver_app.BroadcastReceiverExampleActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".notification_app.NotificationExampleActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".nav_drawer_app.NavigationDrawerAppActivity"
             android:exported="false">
             <meta-data

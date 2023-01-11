@@ -52,4 +52,7 @@
     <string name="archive_fragment">Archive Fragment</string>
     <string name="open">open</string>
     <string name="close">close</string>
+    <string name="send_notification">Send Notification</string>
+    <string name="normal_notification_app">Normal Notification APP</string>
+    <string name="broadcast_receiver_app">Broadcast Receiver App</string>
 </resources>

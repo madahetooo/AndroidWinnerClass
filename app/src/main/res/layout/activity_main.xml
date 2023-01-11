@@ -30,6 +30,16 @@
         android:layout_height="wrap_content"
         android:text="@string/navigation_drawer_app" />
     <Button
+        android:id="@+id/btnNormalNotificationExample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/normal_notification_app" />
+    <Button
+        android:id="@+id/btnBroadCastReceiverApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/broadcast_receiver_app" />
+    <Button
         android:id="@+id/btnCoroutineAPP"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
