@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.bamboogeeks.winnerclass.broadcast_receiver_app.BroadcastReceiverExampleActivity
 import com.bamboogeeks.winnerclass.calculatorapp.CalculatorActivity
+import com.bamboogeeks.winnerclass.coroutine_app.CoroutineActivity
 import com.bamboogeeks.winnerclass.databinding.ActivityMainBinding
 import com.bamboogeeks.winnerclass.nav_drawer_app.NavigationDrawerAppActivity
 import com.bamboogeeks.winnerclass.notification_app.NotificationExampleActivity
@@ -39,6 +40,10 @@ class MainActivity : AppCompatActivity() {
         }
         binding.btnBroadCastReceiverApp.setOnClickListener {
             val intent = Intent(this, BroadcastReceiverExampleActivity::class.java)
+            startActivity(intent)
+        }
+        binding.btnCoroutineAPP.setOnClickListener {
+            val intent = Intent(this, CoroutineActivity::class.java)
             startActivity(intent)
         }
     }
