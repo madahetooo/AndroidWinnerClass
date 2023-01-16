@@ -10,6 +10,7 @@ import com.bamboogeeks.winnerclass.databinding.ActivityMainBinding
 import com.bamboogeeks.winnerclass.nav_drawer_app.NavigationDrawerAppActivity
 import com.bamboogeeks.winnerclass.notification_app.NotificationExampleActivity
 import com.bamboogeeks.winnerclass.restaurant_app.ResturantActivity
+import com.bamboogeeks.winnerclass.shopping_item_app.ui.ShoppingActivity
 import com.bamboogeeks.winnerclass.todolist_app.ui.TodoListActivity
 
 class MainActivity : AppCompatActivity() {
@@ -44,6 +45,10 @@ class MainActivity : AppCompatActivity() {
         }
         binding.btnCoroutineAPP.setOnClickListener {
             val intent = Intent(this, CoroutineActivity::class.java)
+            startActivity(intent)
+        }
+        binding.btnShoppingItemApp.setOnClickListener {
+            val intent = Intent(this, ShoppingActivity::class.java)
             startActivity(intent)
         }
     }

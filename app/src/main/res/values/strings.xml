@@ -37,6 +37,7 @@
     <string name="onions">Onions</string>
     <string name="order">Order</string>
     <string name="dummy_result">Dummy Result</string>
+    <string name="just_add">Add</string>
     <string name="add_todo">Add</string>
     <string name="type_a_todo">Type a todo...</string>
     <string name="item_todo">Item Todo</string>
@@ -56,4 +57,9 @@
     <string name="normal_notification_app">Normal Notification APP</string>
     <string name="broadcast_receiver_app">Broadcast Receiver App</string>
     <string name="dummy_text">Dummy Text</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_amount">Item Amount</string>
+    <string name="add_new_item">Add New Item</string>
+    <string name="amount">Amount</string>
+    <string name="cancel">Cancel</string>
 </resources>

@@ -13,14 +13,14 @@ class ResturantActivity : AppCompatActivity() {
         setContentView(binding.root)
         binding.btnOrder.setOnClickListener {
             val checkedRadioButtonId = binding.rgMeals.checkedRadioButtonId
-           val burger = findViewById<RadioButton>(checkedRadioButtonId)
-           val cheese =  binding.chkCheese.isChecked
-           val salad =  binding.chkSalad.isChecked
-           val onions =  binding.chkOnions.isChecked
-            val totalOrder = "You Just Ordered a burger with \n "+"${burger.text}"+
-                    (if (cheese)"\n Cheese" else "")+
-                    (if (salad)"\n Salad" else "")+
-                    (if (onions)"\n Onions" else "")
+            val burger = findViewById<RadioButton>(checkedRadioButtonId)
+            val cheese = binding.chkCheese.isChecked
+            val salad = binding.chkSalad.isChecked
+            val onions = binding.chkOnions.isChecked
+            val totalOrder = "You Just Ordered a burger with \n " + "${burger.text}" +
+                    (if (cheese) "\n Cheese" else "") +
+                    (if (salad) "\n Salad" else "") +
+                    (if (onions) "\n Onions" else "")
             binding.tvTotalOrder.text = totalOrder
         }
     }
